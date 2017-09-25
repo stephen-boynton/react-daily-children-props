@@ -1,0 +1,26 @@
+.magic {
+	height: 100px;
+	width: 300px;
+	font-size: 30px;
+	border: none;
+}
+
+.magic:focus {
+	outline: none;
+}
+
+.magic:hover {
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes pulse {
+	from {
+		background-color: rgb(173, 67, 244);
+	}
+	to {
+		background-color: rgb(237, 248, 255);
+	}
+}

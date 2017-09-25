@@ -1,0 +1,27 @@
+.sayThis {
+	margin-top: 100px;
+	height: 50px;
+	width: 200px;
+	font-size: 30px;
+}
+
+.genie {
+	position: absolute;
+	bottom: -1000px;
+}
+
+.animate-genie {
+	animation-name: animate-genie;
+	animation-duration: 5s;
+}
+
+@keyframes animate-genie {
+	from {
+		bottom: -1000px;
+		left: -500px;
+	}
+	to {
+		bottom: 1000px;
+		left: 100px;
+	}
+}
